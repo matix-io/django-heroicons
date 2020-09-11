@@ -6,11 +6,11 @@ with open('VERSION.txt') as f:
 
 
 setup(
-    name='my_module',
+    name='django_heroicons',
     version=version,
-    url='https://my_url',
+    url='https://github.com/matix-io/django-heroicons',
     license='MIT',
-    description='Project description',
+    description='Easily use Heroicons in Django templates',
     long_description='',
     author='Connor Bode',
     author_email='connor@matix.io',
