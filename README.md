@@ -1,4 +1,4 @@
-# pip boilerplate
+# django-heroicons
 
 How do you publish this shit?
 
