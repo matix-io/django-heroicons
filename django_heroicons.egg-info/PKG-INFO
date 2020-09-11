@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: django-heroicons
-Version: 0.0.2
+Version: 0.0.4
 Summary: Easily use Heroicons in Django templates
 Home-page: https://github.com/matix-io/django-heroicons
 Author: Connor Bode
