@@ -19,11 +19,4 @@ def heroicon(icon_name, **kwargs):
 		raise Exception('{} is not a valid icon!'.format(icon_name))
 	
 	with open(result) as f: icon = f.read()
-	
-	if 'size' in kwargs:
-		icon = icon.replace('<svg', '<svg style="width: {}; height: {}"'.format(kwargs['size'], kwargs['size']))
-	
-	if 'color' in kwargs:
-		icon = icon.replace('#374151', kwargs['color'])
-	
 	return mark_safe(icon)
